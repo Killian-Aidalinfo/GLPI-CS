@@ -1,0 +1,17 @@
+type: leaky
+name: aidalinfo/glpi-bf
+description: "Detect glpi bruteforce"
+filter: evt.Meta.log_type == 'bf-glpi'
+leakspeed: "30s"
+capacity: 3
+groupby: evt.Meta.source_ip
+blackhole: 1m
+reprocess: true
+labels:
+  service: glpi
+  remediation: false
+  confidence: 1
+  spoofable: 0
+  classification:
+    - attack.T1110
+  label: "GLPI bruteforce"
