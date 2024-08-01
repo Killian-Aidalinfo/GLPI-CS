@@ -10,8 +10,6 @@
 [login] 3: Connexion échouée de  depuis l'IP 192.168.122.1
 2024-07-30 09:31:47 [@debian]
 [login] 3: Failed login for glpi from IP 192.168.122.1
-2024-07-30 09:32:27 [@debian]
-[login] 3: Failed login for  from IP 192.168.122.1
 2024-07-30 09:32:31 [@debian]
 [login] 3: Failed login for glpi from IP 192.168.122.1
 2024-07-30 09:31:47 [@debian]
@@ -24,3 +22,5 @@
 [login] 3: Anmeldung des Benutzers glpi von IP 192.168.122.1 fehlgeschlagen
 2024-07-30 09:33:37 [@debian]
 [login] 3: Anmeldung des Benutzers glpi von IP 192.168.122.1 fehlgeschlagen
+
+
